@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Family Exercise</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Family Members - Drag & Drop</h1>
+
+  <div class="drag-container">
+    <div class="draggable" draggable="true" id="father">Father</div>
+    <div class="draggable" draggable="true" id="mother">Mother</div>
+    <div class="draggable" draggable="true" id="brother">Brother</div>
+    <div class="draggable" draggable="true" id="sister">Sister</div>
+    <div class="draggable" draggable="true" id="grandfather">grandfather</div>
+  </div>
+
+  <div class="image-container">
+    <div class="dropzone" data-match="father">
+      <img src="imge/father.png"Father">
+      <div class="label"></div>
+    </div>
+
+    <div class="dropzone" data-match="mother">
+      <img src="imge/mother.png "alt=       >
+      <div class="label"></div>
+    </div>
+
+    <div class="dropzone" data-match="brother">
+      <img src="imge/brother.png" alt="Brother">
+      <div class="label"></div>
+    </div>
+
+    <div class="dropzone" data-match="sister">
+      <img src="imge/sister.png" alt="Sister">
+      <div class="label"></div>
+    </div>
+
+    <div class="dropzone" data-match="grandfather">
+      <img src="imge/grandfather.png"alt="grandfather">
+      <div class="label"></div>
+    </div>
+  </div>
+
+
+<h1>Where is the Family Member?</h1>
+
+<div class="question-box" data-answer="house" data-question="Where is the father?">
+  <img src="imge/father in home.png" alt="father">
+  <div class="question">Where is the father?</div>
+  <div class="options">
+    <button class="option" onclick="check(this)">Office</button>
+    <button class="option" onclick="check(this)">House</button>
+    <button class="option" onclick="check(this)">Kitchen</button>
+  </div>
+  <div class="result"></div>
+</div>
+
+<div class="question-box" data-answer="kitchen" data-question="Where is the mother?">
+  <img src="imge/mother in kitchen.png" alt ="mother">
+  <div class="question">Where is the mother?</div>
+  <div class="options">
+    <button class="option" onclick="check(this)">Market</button>
+    <button class="option" onclick="check(this)">Kitchen</button>
+    <button class="option" onclick="check(this)">School</button>
+  </div>
+  <div class="result"></div>
+</div>
+
+<div class="question-box" data-answer="office" data-question="Where is the brother?">
+  <img src="imge/brother in office.png" alt="brother">
+  <div class="question">Where is the brother?</div>
+  <div class="options">
+    <button class="option" onclick="check(this)">Playground</button>
+    <button class="option" onclick="check(this)">Office</button>
+    <button class="option" onclick="check(this)">Kitchen</button>
+  </div>
+  <div class="result"></div>
+</div>
+
+<div class="question-box" data-answer="school" data-question="Where is the sister?">
+  <img src="imge/SISTER IN  school.png">
+  <div class="question">Where is the sister?</div>
+  <div class="options">
+    <button class="option" onclick="check(this)">School</button>
+    <button class="option" onclick="check(this)">House</button>
+    <button class="option" onclick="check(this)">Market</button>
+  </div>
+  <div class="result"></div>
+</div>
+
+<div class="question-box" data-answer="market" data-question="Where is the grandmother?">
+  <img src="imge/grandmother in market.png" alt =" grandmother">
+  <button class="sound-btn" onclick="speak(this)">🔊</button>
+  <div class="question">Where is the grandmother?</div>
+  <div class="options">
+    <button class="option" onclick="check(this)">School</button>
+    <button class="option" onclick="check(this)">Market</button>
+    <button class="option" onclick="check(this)">Office</button>
+  </div>
+  <div class="result"></div>
+</div>
+
+
+
+
+  <h1>Jobs Quiz</h1>
+  <div id="quiz-container">
+    <h2 id="question">Loading...</h2>
+    <div class="images">
+      <img id="img1" onclick="checkAnswer(0)" alt="Option 1">
+      <img id="img2" onclick="checkAnswer(1)" alt="Option 2">
+    </div>
+  </div>
+  <p id="result"></p>
+  <button onclick="nextQuestion()">Next</button>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

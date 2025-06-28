@@ -1,0 +1,221 @@
+
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background: linear-gradient(to bottom right, #d1f0fc, #f9fbe7);
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      color: #2c3e50;
+      font-size: 32px;
+      margin-bottom: 30px;
+    }
+
+    .question-box {
+      background-color: #fff;
+      border: 4px solid #ffd54f;
+      padding: 20px;
+      margin: 20px auto;
+      width: 90%;
+      max-width: 500px;
+      box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+    }
+
+.question-box img {
+  width: 120px;
+  height: 120px;
+  border-radius: 10px; /* أو 0 إن أردت زوايا حادة */
+  object-fit: cover;
+  border: 4px solid #4fc3f7;
+  background-color: #fff;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.15);
+  margin-bottom: 10px;
+}
+
+    .question {
+      font-size: 22px;
+      margin: 10px 0;
+      color: #34495e;
+    }
+
+    .sound-btn {
+      margin-bottom: 10px;
+      background-color: #4fc3f7;
+      color: white;
+      padding: 8px 15px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+    }
+
+    .sound-btn:hover {
+      background-color: #039be5;
+    }
+
+    .options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .option {
+      padding: 10px 20px;
+      background-color: #87ceeb;
+      border: none;
+      font-size: 18px;
+      cursor: pointer;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .option:hover {
+      background-color: #4fc3f7;
+    }
+
+    .result {
+      margin-top: 12px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+
+    .correct {
+      color: #2e7d32;
+      background-color: #c8e6c9;
+      padding: 5px 12px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+
+    .wrong {
+      color: #c62828;
+      background-color: #ffcdd2;
+      padding: 5px 12px;
+      border-radius: 10px;
+      display: inline-block;
+    }
+    
+    h1 {
+      font-size: 36px;
+      color: #2d3748;
+      margin-bottom: 20px;
+    }
+
+    #quiz-container {
+      background-color: #ffffff;
+      padding: 25px;
+      border-radius: 20px;
+      box-shadow: 0 0 10px #ccc;
+      max-width: 750px;
+      margin: auto;
+    }
+
+    #question {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .images {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 15px;
+      flex-wrap: wrap;
+    }
+
+    img {
+      width: 200px;
+      height: 200px;
+      border-radius: 15px;
+      object-fit: cover;
+      cursor: pointer;
+      border: 4px solid transparent;
+      transition: transform 0.2s, border-color 0.2s;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      border-color: #4caf50;
+    }
+
+    #result {
+      font-size: 22px;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+
+    button {
+      margin-top: 25px;
+      padding: 12px 30px;
+      font-size: 20px;
+      border: none;
+      background-color: #4caf50;
+      color: white;
+      border-radius: 12px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+
+    
+    body {
+      font-family: 'Comic Sans MS', cursive;
+      background-color: #fffaf0;
+      text-align: center;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #444;
+    }
+
+    .drag-container {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 30px;
+    }
+
+    .draggable {
+      padding: 10px 20px;
+      background-color: #87ceeb;
+      border-radius: 10px;
+      cursor: grab;
+      font-weight: bold;
+      user-select: none;
+      box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+  .image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.dropzone {
+  flex: 0 1 calc(50% - 40px); /* كل سطر يحتوي على صورتين */
+  box-sizing: border-box;
+}
+
+
+    .dropzone img {
+      width: 150px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    .label {
+      margin-top: 8px;
+      font-size: 18px;
+      font-weight: bold;
+      color: #2f4f4f;
+    }
