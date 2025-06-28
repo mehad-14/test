@@ -1,6 +1,5 @@
 
     body {
-      font-family: 'Comic Sans MS', cursive;
       background: linear-gradient(to bottom right, #d1f0fc, #f9fbe7);
       padding: 20px;
       text-align: center;
@@ -162,13 +161,6 @@
     }
 
 
-    
-    body {
-      font-family: 'Comic Sans MS', cursive;
-      background-color: #fffaf0;
-      text-align: center;
-      padding: 20px;
-    }
 
     h1 {
       color: #444;
